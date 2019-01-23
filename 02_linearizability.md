@@ -4,14 +4,15 @@
 ##### 2019.23.01
 
 source: http://cs.brown.edu/~mph/HerlihyW90/p463-herlihy.pdf
-
-<img src="/tex/b23879d67d363c16f28cfba0f90ab9e2.svg?invert_in_darkmode&sanitize=true" align=middle width=8.21920935pt height=14.15524440000002pt/>
-<img src="/tex/c57a0802e00939892c1abc7458176925.svg?invert_in_darkmode&sanitize=true" align=middle width=8.21920935pt height=14.15524440000002pt/>
-<img src="/tex/84cdeae38f027bf1aac47a1dcf48177b.svg?invert_in_darkmode&sanitize=true" align=middle width=8.21920935pt height=14.15524440000002pt/>
-<img src="/tex/58c63fc4a2f5309d98fc89e617753e45.svg?invert_in_darkmode&sanitize=true" align=middle width=8.21920935pt height=14.15524440000002pt/>
-<img src="/tex/63539bddb3412ec3ba7197c471a1d18a.svg?invert_in_darkmode&sanitize=true" align=middle width=8.21920935pt height=14.15524440000002pt/>
-<img src="/tex/bac1d15346308f165bd2bfa9698c5d6a.svg?invert_in_darkmode&sanitize=true" align=middle width=8.21920935pt height=14.15524440000002pt/>
-<img src="/tex/10dfcc905b989d237d448d87585b7a73.svg?invert_in_darkmode&sanitize=true" align=middle width=8.21920935pt height=14.15524440000002pt/>
+\[
+  \newcommand{\event}[3]{\langle #1 \:\: #2 \:\: #3 \rangle}
+  \newcommand{\rep}{\mathtt{rep}}
+  \newcommand{\abs}{\mathtt{abs}}
+  \newcommand{\tbool}{\mathtt{BOOL}}
+  \newcommand{\trep}{\mathtt{REP}}
+  \newcommand{\tabs}{\mathtt{ABS}}
+  \newcommand{\lin}{\mathtt{Lin}}
+\]
 
 ## Intuition
 
