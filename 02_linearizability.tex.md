@@ -4,14 +4,15 @@
 ##### 2019.23.01
 
 source: http://cs.brown.edu/~mph/HerlihyW90/p463-herlihy.pdf
-
-$\newcommand{\event}[3]{\langle #1 \:\: #2 \:\: #3 \rangle}$
-$\newcommand{\rep}{\mathtt{rep}}$
-$\newcommand{\abs}{\mathtt{abs}}$
-$\newcommand{\tbool}{\mathtt{BOOL}}$
-$\newcommand{\trep}{\mathtt{REP}}$
-$\newcommand{\tabs}{\mathtt{ABS}}$
-$\newcommand{\lin}{\mathtt{Lin}}$
+\[
+  \newcommand{\event}[3]{\langle #1 \:\: #2 \:\: #3 \rangle}
+  \newcommand{\rep}{\mathtt{rep}}
+  \newcommand{\abs}{\mathtt{abs}}
+  \newcommand{\tbool}{\mathtt{BOOL}}
+  \newcommand{\trep}{\mathtt{REP}}
+  \newcommand{\tabs}{\mathtt{ABS}}
+  \newcommand{\lin}{\mathtt{Lin}}
+\]
 
 ## Intuition
 
