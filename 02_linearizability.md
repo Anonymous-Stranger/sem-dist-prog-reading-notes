@@ -4,6 +4,7 @@
 ##### 2019.23.01
 
 source: http://cs.brown.edu/~mph/HerlihyW90/p463-herlihy.pdf
+
 \[
   \newcommand{\event}[3]{\langle #1 \:\: #2 \:\: #3 \rangle}
   \newcommand{\rep}{\mathtt{rep}}
